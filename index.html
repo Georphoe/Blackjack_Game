@@ -1,0 +1,21 @@
+<html>
+  <head>
+    <!-- Link to the index.css file
+        E.g. search for "how to link to css from html" -->
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <h1>Blackjack</h1>
+    <p id="message-el">Want to play a round?</p>
+    <div id="player-hand-el">
+      <p id="player-card-el">Cards:</p>
+      <p id="player-sum-el">Sum:</p>
+    </div>
+
+    <button id="start-btn" onclick="startGame()">START A NEW GAME</button>
+    <button id="newCard-btn" onclick="newCard()">HIT</button>
+    <button id="stand-btn">STAND</button>
+    <p id="player-el"></p>
+    <script src="index.js"></script>
+  </body>
+</html>
